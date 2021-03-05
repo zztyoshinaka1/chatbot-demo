@@ -58,8 +58,8 @@ const FormDialog = (props) => {
             };
             
             //Slack（ヘイセイの吉中チャンネルで）のIncommingWebHookで得たURL
-            const url = 'https://hooks.slack.com/services/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'
-
+            const url = 'https://hooks.slack.com/services/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'
+            
             // fetchメソッドでフォームの内容をSlackのIncoming Webhook URL に送信する
             fetch(url, {
                 method: 'POST',
